@@ -1,0 +1,13 @@
+pyproject.toml
+literag/__init__.py
+literag/core/__init__.py
+literag/dashboard/__init__.py
+literag/models/__init__.py
+literag/providers/__init__.py
+literag/utils/__init__.py
+literag_ingest.egg-info/PKG-INFO
+literag_ingest.egg-info/SOURCES.txt
+literag_ingest.egg-info/dependency_links.txt
+literag_ingest.egg-info/entry_points.txt
+literag_ingest.egg-info/requires.txt
+literag_ingest.egg-info/top_level.txt

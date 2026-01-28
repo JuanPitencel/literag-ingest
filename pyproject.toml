@@ -1,0 +1,26 @@
+[project]
+name = "literag-ingest"
+version = "0.1.0"
+description = "Local ingestion pipeline for RAG with PDFs"
+requires-python = ">=3.10"
+dependencies = [
+    "qdrant-client>=1.7.0",
+    "sentence-transformers>=2.2.0",
+    "pymupdf>=1.23.0",
+    "rich>=13.0.0",
+    "python-dotenv>=1.0.0",
+    "click>=8.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+
+[project.scripts]
+literag = "cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
